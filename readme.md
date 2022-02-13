@@ -1,0 +1,1 @@
+this is a custom discord wiget i think
