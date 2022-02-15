@@ -5,3 +5,5 @@ usage:
 where:  
 `[invite]` is the invite code (`fHcWmmprGm` in `discord.gg/fHcWmmprGm`)  
 `[style]` is the link for your css style sheet (there is a default fallback style)  
+
+todo: make this clicabke
