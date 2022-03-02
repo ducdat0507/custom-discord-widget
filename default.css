@@ -1,0 +1,138 @@
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #eef;
+    font-size: 14px;
+    font-family: "Consolas", monospace;
+    overflow: hidden;
+    text-align: center;
+    user-select: none;
+    border: 1px solid #eef4;
+    border-radius: 8px;
+}
+
+#upper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35%;
+    background: linear-gradient(#112, #001);
+    border-radius: 7px 7px 0 0;
+}
+
+#banner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px 7px 0 0;
+}
+
+#lower {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: max-content;
+    height: 65%;
+    background: linear-gradient(#123, #112);
+    border-top: 1px solid #eef4;
+    padding: 5px;
+    border-radius: 0 0 7px 7px;
+}
+
+#iconframe {
+    display: inline-block;
+    background: linear-gradient(#ccf, #aad);
+    border: 1px solid #eef7;
+    border-radius: 11px;
+    width: 66px;
+    height: 66px;
+    padding: 1px;
+    margin-top: -37px;
+}
+
+#icon {
+    border-radius: 10px;
+    border: 1px solid #eef7;
+    background: linear-gradient(#123, #112);
+    width: 64px;
+    height: 64px;
+}
+
+#servername {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#inviter {
+    margin-top: 20px;
+}
+
+#inviter:after {
+    content: " invited you to join"
+}
+
+#invitertag {
+    font-size: 12px;
+    opacity: .5;
+}
+#invitertag:before {
+    content: "#"
+}
+
+#counts {
+    margin-top: 10px;
+}
+#membercount:before {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(#ccf, #aad);
+    transform: translateY(1px);
+    border: 1px solid #eef7;
+    border-radius: 50%;
+    content: " ";
+    margin-right: 1ch;
+}
+#membercount:after {
+    content: " members"
+}
+#onlinecount:before {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(#6f6, #4d4);
+    transform: translateY(1px);
+    border: 1px solid #8f87;
+    border-radius: 50%;
+    content: " ";
+    margin-left: 2ch;
+    margin-right: 1ch;
+}
+#onlinecount:after {
+    content: " online"
+}
+#boostcount:before {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(#f6f, #d4d);
+    transform: translateY(1px);
+    border: 1px solid #f8f7;
+    border-radius: 50%;
+    content: " ";
+    margin-left: 2ch;
+    margin-right: 1ch;
+}
+#boostcount:after {
+    content: " boosts"
+}
